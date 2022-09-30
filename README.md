@@ -1,11 +1,11 @@
 <a name="readme-top"></a>
 
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/kevin-jose-moriglioni-584897182/]
+[![LinkedIn][linkedin-shield]][linkedin-https://www.linkedin.com/in kevin-jose-moriglioni-584897182]
 
 <br />
 <div align="center">
   <a href="https://www.omatech.com/es">
-    <img src="https://www.omatech.com/uploads/20220426/Screenshot-2022-04-26-at-10.01.40.png" alt="Logo" width="80" height="80">
+    <img src="https://www.omatech.com/uploads/20220426/Screenshot-2022-04-26-at-10.01.40.png" alt="Logo" width="120" height="80">
   </a>
 
   <h3 align="center">Hiring test</h3>
@@ -27,8 +27,6 @@
   </ol>
 </details>
 
-
-
 ## About The Project
 
 The objective of this test is to develop a back office where you can access the operations CRUD from users using the latest version of Laravel.
@@ -43,16 +41,20 @@ What is expected?
 * Being able to see the details of any user.
 * Instructions for testing the application in a local environment.
 
+How to deliver the test?
+* Upload the repository on github and send the link by email.
+
+Additional features
+* Tests are a must.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 Getting Started.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * php ^8.0.2
 * composer
 * nodejs compatible with laravel 9
