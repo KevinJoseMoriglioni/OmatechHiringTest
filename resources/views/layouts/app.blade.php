@@ -3,8 +3,10 @@
 
 @include('heads/defaultHead')
 <body>
-    <div id="app">
+    <header>
         @include('navbars/defaultNavbar')
+    </header>
+    <div id="app">
         <main class="py-4">@yield('content')</main>
     </div>
 </body>
