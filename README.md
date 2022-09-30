@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-[![LinkedIn][linkedin-shield]][linkedin-https://www.linkedin.com/in kevin-jose-moriglioni-584897182]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
 <div align="center">
@@ -67,3 +67,5 @@ Getting Started.
    git clone https://github.com/KevinJoseMoriglioni/OmatechHiringTest.git
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+[linkedin-url]: https://www.linkedin.com/in/kevin-jose-moriglioni-584897182/
