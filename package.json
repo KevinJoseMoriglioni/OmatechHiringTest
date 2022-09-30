@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "usersTest": "php artisan db:seed --class=DataBaseSeeder"
     },
     "devDependencies": {
         "@popperjs/core": "^2.10.2",
