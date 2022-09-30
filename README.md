@@ -68,4 +68,4 @@ Getting Started.
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[linkedin-url]: https://www.linkedin.com/in/kevin-jose-moriglioni-584897182/
+[linkedin-url]: https://www.linkedin.com/in/kevin-jose-moriglioni-584897182
