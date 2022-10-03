@@ -13,7 +13,7 @@ Route::get('/', function () {
 Route::get('login', [LoginController::class, "showLoginForm"])->name('login');
 Route::post('login',[LoginController::class, "login"]);
 
-#Routes for logged in users
+#Routes for logged users
 Route::middleware(['auth', 'auth.session'])->group(function () {
     Route::post('logout',[LoginController::class, "logout"])->name('logout');
     Route::get('home',[UserController::class, "index"])->name('home');
