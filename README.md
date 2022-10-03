@@ -20,6 +20,8 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#set-environment">Set environment</a></li>
+        <li><a href="#use">Use</a></li>
       </ul>
     </li>
   </ol>
@@ -64,4 +66,50 @@ Getting Started.
    ```sh
    git clone https://github.com/KevinJoseMoriglioni/OmatechHiringTest.git
    ```
+
+2. Install php dependencys
+   ```sh
+   composer install
+   ```
+
+3. Install javascript dependencys
+   ```sh
+   npm install && npm run dev
+   ```
+
+### Set environment
+
+1. We need to set the environment variables that are in an .env file, adding the name of the project and the name of the database to use. The project does not contain an .env file but you can copy the one you find as an example that is not in gitignore.
+   ```sh
+   cp .env.example .env
+   ```
+
+2. Generate application security key
+   ```sh
+   php artisan key:generate
+   ```
+
+2. DB migration
+   ```sh
+   php artisan migrate
+   ```
+
+### Use
+
+1. Create fake users, to be able to enter and see the list of fake users that were created you can enter with the email: jose@example.com and password: Tester12 (The other users created have this same password by default)
+   ```sh
+   npm run usersTest
+   ```
+
+2. Server running on [http://127.0.0.1:8000]
+   ```sh
+   php artisan serve
+   ```
+
+3. Test (taking into account that the tests will be run and the database will be refreshed)
+   ```sh
+   php artisan test
+   ```
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
