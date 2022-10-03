@@ -19,4 +19,8 @@ Route::middleware(['auth', 'auth.session'])->group(function () {
     Route::get('home',[UserController::class, "index"])->name('home');
     Route::get('createUser',[UserController::class, "create"])->name('createUser');
     Route::post('createUser',[UserController::class, "store"])->name('createUser');
+    Route::get('showUser/{user}', [UserController::class, "show"])->name('showUser');
+    Route::delete('userDelete/{user}',[UserController::class, "destroy"])->name('deleteUser');
+    Route::get('editUser/{user}', [UserController::class, "edit"])->name('editUser');
+    Route::put('editUser/{user}', [UserController::class, "update"])->name('editUser');
 });

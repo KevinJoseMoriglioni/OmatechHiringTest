@@ -34,6 +34,23 @@
             </div>
 
             <div class="row mb-3 m-0">
+                <label for="description" class="col-md-4 col-form-label text-md-end">{{ __('Description') }}</label>
+
+                <div class="col-md-6">
+
+                    <textarea id="description" type="text" class="form-control @error('description') is-invalid @enderror" name="description"  required autocomplete="description" autofocus cols="30" rows="10">
+                        {{ old('description') }}
+                    </textarea>
+
+                    @error('description')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror
+                </div>
+            </div>
+
+            <div class="row mb-3 m-0">
                 <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
 
                 <div class="col-md-6">
